@@ -1,0 +1,10 @@
+^E:\GITHUB\GL3W\CMAKEFILES\12AB0B418CD3540295ABE41F3EB10A36\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Github/gl3w -BE:/Github/gl3w --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/Github/gl3w/gl3w.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

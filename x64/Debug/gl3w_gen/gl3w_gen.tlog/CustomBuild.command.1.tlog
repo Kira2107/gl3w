@@ -1,0 +1,32 @@
+^E:\GITHUB\GL3W\CMAKEFILES\FDC44CD5D54209C7EFD63700B9399A54\GL3W.C.RULE
+setlocal
+cd E:\Github\gl3w
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\hriti\AppData\Local\Programs\Python\Python313\python.exe E:/Github/gl3w/gl3w_gen.py
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\GITHUB\GL3W\CMAKEFILES\12AB0B418CD3540295ABE41F3EB10A36\GL3W_GEN.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\GITHUB\GL3W\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/Github/gl3w -BE:/Github/gl3w --check-stamp-file E:/Github/gl3w/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

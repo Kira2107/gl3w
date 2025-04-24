@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\Github\gl3w\CMakeFiles\fdc44cd5d54209c7efd63700b9399a54\gl3w.c.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Github\gl3w\CMakeFiles\12ab0b418cd3540295abe41f3eb10a36\gl3w_gen.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\Github\gl3w\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\Github\gl3w\CMakeFiles\gl3w_gen" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{311CF07C-73E7-3AC9-A8FC-AF00DC1CAA5D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
